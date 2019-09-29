@@ -38,6 +38,11 @@ print("Kullanicinin Adi Soyadi : " ,         fullname       )
 sayi1 = 10
 sayi2 = 20
 
+# c# => 8 tane tam sayi veri tipi mevcut (byte, sbyte,short,ushor,int, uint, long,ulong)
+# python => 2 int, long
+
+
+
 
 
 
