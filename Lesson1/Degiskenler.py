@@ -35,7 +35,8 @@ fullname = isim + " " +soyisim
 
 print("Kullanicinin Adi Soyadi : " ,         fullname       )
 
-
+sayi1 = 10
+sayi2 = 20
 
 
 
