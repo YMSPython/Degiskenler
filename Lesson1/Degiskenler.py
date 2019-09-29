@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Degisken tanimlama kurallari
 # 1) degisken, ismi sayi ile baslayamaz
 # 2) degisken, 2 kelimeden olusamaz(ayrik)
@@ -43,17 +44,43 @@ sayi2 = 20
 
 
 
+metin = "bilge\nadam"  #    \n bir alt satir(new line)
+print(metin)
+
+metin = """
+bilge
+adam
+besiktas
+python 
+dersleri
+"""
+
+print (metin)
+
+
+
+x = True
+y = False
+
+
+# (escape sequence) kacis karakteri
+
+#      "bilge adam" besiktas subesi "python" dersleri
+
+
+metin = "\"bilge adam\" besiktas subesi \"python\" dersleri"
+print(metin)
 
 
 
 
+metin = "\"bilge adam\" besiktas subesi \"python\" dersleri\n"
+print(metin *5)  # metin degiskeninin ekrana 5 defa yazdirilmasi
 
 
 
-
-
-
-
+result = 10 > 2   # True degerini teslim eder.
+print(result)
 
 
 
