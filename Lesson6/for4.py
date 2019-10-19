@@ -495,11 +495,12 @@ sehirler = [
 #. Telefon Kodu    : 476
 #---------------------------------
 
-rehber = []
-rehber.append({
-    "Id":1,
-    "FirstName" :"Murat",
-    "LastName" :"Vuranok":
-    "Phone" :"231321",
-    "Mail":"sadsadq@sadsad.com"
-})
+for sehir in sehirler:
+  print("-"*35)
+  for key, value in sehir.items():
+    key = key.replace("Id","Sıra No")\
+    .replace("Name", "Şehir Adı")\
+    .replace("PlateCode","Plaka Kodu")\
+    .replace("PhoneCode", "Telefon Kodu")
+
+    print(". {0:<15} : {1}".format(key,value))
