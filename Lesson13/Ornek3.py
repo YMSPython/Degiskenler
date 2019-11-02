@@ -1,7 +1,6 @@
 class Ogrenci:
     """
     self : sınıf içerisinde yer alan metotların diğerlerinden farkı hangi sınıf içerisinden çalıştığını  belirtmesidir
-
     """
     Adi = ""
 

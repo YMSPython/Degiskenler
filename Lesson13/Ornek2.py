@@ -7,7 +7,6 @@ class Employee:
     LastName  : Kişinin Soyadı
     Phone     : Kişinin Telefonu
     Mail      : Kişinin Maili
-
     """
 
 
